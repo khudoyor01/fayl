@@ -101,18 +101,17 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 1rem;
 }
 
-.container .main .card {
-  padding: 20px;
+.container .main .icons .card {
+  margin-top: 1.5rem;
 }
 
-.container .main .card img {
+.container .main .icons .card img {
   width: 90px;
 }
 
-.container .main .card h1 a {
+.container .main .icons .card h1 a {
   text-decoration: none;
   color: #58617c;
   font-size: 14px;
@@ -336,9 +335,7 @@
     padding: 8px;
   }
   .linkk .linkk__logo {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
